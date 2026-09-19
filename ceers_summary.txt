@@ -1,0 +1,762 @@
+================================================================================
+FITS FILE STRUCTURE
+================================================================================
+Filename: ceers_cat_v1.0.fits
+No.    Name      Ver    Type      Cards   Dimensions   Format
+  0  PRIMARY       1 PrimaryHDU       4   ()      
+  1                1 BinTableHDU    452   87345R x 201C   [J, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, E, E, E, E, E, E, 12E, 12E, 12E, E, E, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D, D]   
+
+Number of HDUs: 2
+
+HDU 0
+Name: PRIMARY
+Type: PrimaryHDU
+
+HDU 1
+Name: 
+Type: BinTableHDU
+Shape: (87345,)
+Number of columns: 201
+
+
+
+====================================================================================================
+TABLE HDU 1: 
+====================================================================================================
+Rows: 87,345
+Columns: 201
+
+COLUMN NAMES
+----------------------------------------------------------------------------------------------------
+  0: NUMBER
+  1: X_IMAGE
+  2: Y_IMAGE
+  3: RA
+  4: DEC
+  5: CXX_IMAGE
+  6: CXY_IMAGE
+  7: CYY_IMAGE
+  8: THETA_IMAGE
+  9: ELLIPTICITY
+ 10: KRON_RADIUS
+ 11: A_IMAGE
+ 12: B_IMAGE
+ 13: ISO_AREA
+ 14: STAR_FLAG
+ 15: BAD_REGION_FLAG
+ 16: APCORR_TOTAL
+ 17: F115W_FLUX
+ 18: F115W_FLUXERR_SE
+ 19: F115W_FLUXERR_EMP
+ 20: F115W_MAG
+ 21: F115W_MAGERR_SE
+ 22: F115W_MAGERR_EMP
+ 23: F115W_FLUX_APER
+ 24: F115W_FLUXERR_APER_SE
+ 25: F115W_FLUXERR_APER_EMP
+ 26: F115W_CLASS_STAR
+ 27: F115W_FLUX_RADIUS
+ 28: F150W_FLUX
+ 29: F150W_FLUXERR_SE
+ 30: F150W_FLUXERR_EMP
+ 31: F150W_MAG
+ 32: F150W_MAGERR_SE
+ 33: F150W_MAGERR_EMP
+ 34: F150W_FLUX_APER
+ 35: F150W_FLUXERR_APER_SE
+ 36: F150W_FLUXERR_APER_EMP
+ 37: F150W_CLASS_STAR
+ 38: F150W_FLUX_RADIUS
+ 39: F200W_FLUX
+ 40: F200W_FLUXERR_SE
+ 41: F200W_FLUXERR_EMP
+ 42: F200W_MAG
+ 43: F200W_MAGERR_SE
+ 44: F200W_MAGERR_EMP
+ 45: F200W_FLUX_APER
+ 46: F200W_FLUXERR_APER_SE
+ 47: F200W_FLUXERR_APER_EMP
+ 48: F200W_CLASS_STAR
+ 49: F200W_FLUX_RADIUS
+ 50: F277W_FLUX
+ 51: F277W_FLUXERR_SE
+ 52: F277W_FLUXERR_EMP
+ 53: F277W_MAG
+ 54: F277W_MAGERR_SE
+ 55: F277W_MAGERR_EMP
+ 56: F277W_FLUX_APER
+ 57: F277W_FLUXERR_APER_SE
+ 58: F277W_FLUXERR_APER_EMP
+ 59: F277W_CLASS_STAR
+ 60: F277W_FLUX_RADIUS
+ 61: F356W_FLUX
+ 62: F356W_FLUXERR_SE
+ 63: F356W_FLUXERR_EMP
+ 64: F356W_MAG
+ 65: F356W_MAGERR_SE
+ 66: F356W_MAGERR_EMP
+ 67: F356W_FLUX_APER
+ 68: F356W_FLUXERR_APER_SE
+ 69: F356W_FLUXERR_APER_EMP
+ 70: F356W_CLASS_STAR
+ 71: F356W_FLUX_RADIUS
+ 72: F410M_FLUX
+ 73: F410M_FLUXERR_SE
+ 74: F410M_FLUXERR_EMP
+ 75: F410M_MAG
+ 76: F410M_MAGERR_SE
+ 77: F410M_MAGERR_EMP
+ 78: F410M_FLUX_APER
+ 79: F410M_FLUXERR_APER_SE
+ 80: F410M_FLUXERR_APER_EMP
+ 81: F410M_CLASS_STAR
+ 82: F410M_FLUX_RADIUS
+ 83: F444W_FLUX
+ 84: F444W_FLUXERR_SE
+ 85: F444W_FLUXERR_EMP
+ 86: F444W_MAG
+ 87: F444W_MAGERR_SE
+ 88: F444W_MAGERR_EMP
+ 89: F444W_FLUX_APER
+ 90: F444W_FLUXERR_APER_SE
+ 91: F444W_FLUXERR_APER_EMP
+ 92: F444W_CLASS_STAR
+ 93: F444W_FLUX_RADIUS
+ 94: F105W_FLUX
+ 95: F105W_FLUXERR_SE
+ 96: F105W_FLUXERR_EMP
+ 97: F105W_MAG
+ 98: F105W_MAGERR_SE
+ 99: F105W_MAGERR_EMP
+100: F105W_FLUX_APER
+101: F105W_FLUXERR_APER_SE
+102: F105W_FLUXERR_APER_EMP
+103: F105W_CLASS_STAR
+104: F105W_FLUX_RADIUS
+105: F125W_FLUX
+106: F125W_FLUXERR_SE
+107: F125W_FLUXERR_EMP
+108: F125W_MAG
+109: F125W_MAGERR_SE
+110: F125W_MAGERR_EMP
+111: F125W_FLUX_APER
+112: F125W_FLUXERR_APER_SE
+113: F125W_FLUXERR_APER_EMP
+114: F125W_CLASS_STAR
+115: F125W_FLUX_RADIUS
+116: F140W_FLUX
+117: F140W_FLUXERR_SE
+118: F140W_FLUXERR_EMP
+119: F140W_MAG
+120: F140W_MAGERR_SE
+121: F140W_MAGERR_EMP
+122: F140W_FLUX_APER
+123: F140W_FLUXERR_APER_SE
+124: F140W_FLUXERR_APER_EMP
+125: F140W_CLASS_STAR
+126: F140W_FLUX_RADIUS
+127: F160W_FLUX
+128: F160W_FLUXERR_SE
+129: F160W_FLUXERR_EMP
+130: F160W_MAG
+131: F160W_MAGERR_SE
+132: F160W_MAGERR_EMP
+133: F160W_FLUX_APER
+134: F160W_FLUXERR_APER_SE
+135: F160W_FLUXERR_APER_EMP
+136: F160W_CLASS_STAR
+137: F160W_FLUX_RADIUS
+138: F606W_FLUX
+139: F606W_FLUXERR_SE
+140: F606W_FLUXERR_EMP
+141: F606W_MAG
+142: F606W_MAGERR_SE
+143: F606W_MAGERR_EMP
+144: F606W_FLUX_APER
+145: F606W_FLUXERR_APER_SE
+146: F606W_FLUXERR_APER_EMP
+147: F606W_CLASS_STAR
+148: F606W_FLUX_RADIUS
+149: F814W_FLUX
+150: F814W_FLUXERR_SE
+151: F814W_FLUXERR_EMP
+152: F814W_MAG
+153: F814W_MAGERR_SE
+154: F814W_MAGERR_EMP
+155: F814W_FLUX_APER
+156: F814W_FLUXERR_APER_SE
+157: F814W_FLUXERR_APER_EMP
+158: F814W_CLASS_STAR
+159: F814W_FLUX_RADIUS
+160: F435W_FLUX
+161: F435W_FLUXERR_SE
+162: F435W_FLUXERR_EMP
+163: F435W_MAG
+164: F435W_MAGERR_SE
+165: F435W_MAGERR_EMP
+166: F435W_FLUX_APER
+167: F435W_FLUXERR_APER_SE
+168: F435W_FLUXERR_APER_EMP
+169: F435W_CLASS_STAR
+170: F435W_FLUX_RADIUS
+171: LP_Z_MED
+172: LP_Z_MED68_LOW
+173: LP_Z_MED68_HIGH
+174: LP_Z_BEST
+175: LP_MASS_MED
+176: LP_MASS_MED68_LOW
+177: LP_MASS_MED68_HIGH
+178: LP_MASS_BEST
+179: LP_SFR_MED
+180: LP_SFR_MED68_LOW
+181: LP_SFR_MED68_HIGH
+182: LP_SFR_BEST
+183: LP_EBV_BEST
+184: LP_FIT_CHI
+185: LP_NBANDS
+186: DB_MASS
+187: DB_MASS_LOW
+188: DB_MASS_HIGH
+189: DB_SFR
+190: DB_SFR_LOW
+191: DB_SFR_HIGH
+192: DB_AV
+193: DB_AV_LOW
+194: DB_AV_HIGH
+195: CI_MASS
+196: CI_MASS_ERR
+197: CI_SFR
+198: CI_SFR_ERR
+199: CI_EBV
+200: CI_EBV_ERR
+
+
+COLUMN DETAILS
+----------------------------------------------------------------------------------------------------
+  0 | NUMBER                         | format=J          | unit=None
+  1 | X_IMAGE                        | format=E          | unit=None
+  2 | Y_IMAGE                        | format=E          | unit=None
+  3 | RA                             | format=E          | unit=None
+  4 | DEC                            | format=E          | unit=None
+  5 | CXX_IMAGE                      | format=E          | unit=None
+  6 | CXY_IMAGE                      | format=E          | unit=None
+  7 | CYY_IMAGE                      | format=E          | unit=None
+  8 | THETA_IMAGE                    | format=E          | unit=None
+  9 | ELLIPTICITY                    | format=E          | unit=None
+ 10 | KRON_RADIUS                    | format=E          | unit=None
+ 11 | A_IMAGE                        | format=E          | unit=None
+ 12 | B_IMAGE                        | format=E          | unit=None
+ 13 | ISO_AREA                       | format=E          | unit=None
+ 14 | STAR_FLAG                      | format=E          | unit=None
+ 15 | BAD_REGION_FLAG                | format=E          | unit=None
+ 16 | APCORR_TOTAL                   | format=E          | unit=None
+ 17 | F115W_FLUX                     | format=E          | unit=None
+ 18 | F115W_FLUXERR_SE               | format=E          | unit=None
+ 19 | F115W_FLUXERR_EMP              | format=E          | unit=None
+ 20 | F115W_MAG                      | format=E          | unit=None
+ 21 | F115W_MAGERR_SE                | format=E          | unit=None
+ 22 | F115W_MAGERR_EMP               | format=E          | unit=None
+ 23 | F115W_FLUX_APER                | format=12E        | unit=None
+ 24 | F115W_FLUXERR_APER_SE          | format=12E        | unit=None
+ 25 | F115W_FLUXERR_APER_EMP         | format=12E        | unit=None
+ 26 | F115W_CLASS_STAR               | format=E          | unit=None
+ 27 | F115W_FLUX_RADIUS              | format=E          | unit=None
+ 28 | F150W_FLUX                     | format=E          | unit=None
+ 29 | F150W_FLUXERR_SE               | format=E          | unit=None
+ 30 | F150W_FLUXERR_EMP              | format=E          | unit=None
+ 31 | F150W_MAG                      | format=E          | unit=None
+ 32 | F150W_MAGERR_SE                | format=E          | unit=None
+ 33 | F150W_MAGERR_EMP               | format=E          | unit=None
+ 34 | F150W_FLUX_APER                | format=12E        | unit=None
+ 35 | F150W_FLUXERR_APER_SE          | format=12E        | unit=None
+ 36 | F150W_FLUXERR_APER_EMP         | format=12E        | unit=None
+ 37 | F150W_CLASS_STAR               | format=E          | unit=None
+ 38 | F150W_FLUX_RADIUS              | format=E          | unit=None
+ 39 | F200W_FLUX                     | format=E          | unit=None
+ 40 | F200W_FLUXERR_SE               | format=E          | unit=None
+ 41 | F200W_FLUXERR_EMP              | format=E          | unit=None
+ 42 | F200W_MAG                      | format=E          | unit=None
+ 43 | F200W_MAGERR_SE                | format=E          | unit=None
+ 44 | F200W_MAGERR_EMP               | format=E          | unit=None
+ 45 | F200W_FLUX_APER                | format=12E        | unit=None
+ 46 | F200W_FLUXERR_APER_SE          | format=12E        | unit=None
+ 47 | F200W_FLUXERR_APER_EMP         | format=12E        | unit=None
+ 48 | F200W_CLASS_STAR               | format=E          | unit=None
+ 49 | F200W_FLUX_RADIUS              | format=E          | unit=None
+ 50 | F277W_FLUX                     | format=E          | unit=None
+ 51 | F277W_FLUXERR_SE               | format=E          | unit=None
+ 52 | F277W_FLUXERR_EMP              | format=E          | unit=None
+ 53 | F277W_MAG                      | format=E          | unit=None
+ 54 | F277W_MAGERR_SE                | format=E          | unit=None
+ 55 | F277W_MAGERR_EMP               | format=E          | unit=None
+ 56 | F277W_FLUX_APER                | format=12E        | unit=None
+ 57 | F277W_FLUXERR_APER_SE          | format=12E        | unit=None
+ 58 | F277W_FLUXERR_APER_EMP         | format=12E        | unit=None
+ 59 | F277W_CLASS_STAR               | format=E          | unit=None
+ 60 | F277W_FLUX_RADIUS              | format=E          | unit=None
+ 61 | F356W_FLUX                     | format=E          | unit=None
+ 62 | F356W_FLUXERR_SE               | format=E          | unit=None
+ 63 | F356W_FLUXERR_EMP              | format=E          | unit=None
+ 64 | F356W_MAG                      | format=E          | unit=None
+ 65 | F356W_MAGERR_SE                | format=E          | unit=None
+ 66 | F356W_MAGERR_EMP               | format=E          | unit=None
+ 67 | F356W_FLUX_APER                | format=12E        | unit=None
+ 68 | F356W_FLUXERR_APER_SE          | format=12E        | unit=None
+ 69 | F356W_FLUXERR_APER_EMP         | format=12E        | unit=None
+ 70 | F356W_CLASS_STAR               | format=E          | unit=None
+ 71 | F356W_FLUX_RADIUS              | format=E          | unit=None
+ 72 | F410M_FLUX                     | format=E          | unit=None
+ 73 | F410M_FLUXERR_SE               | format=E          | unit=None
+ 74 | F410M_FLUXERR_EMP              | format=E          | unit=None
+ 75 | F410M_MAG                      | format=E          | unit=None
+ 76 | F410M_MAGERR_SE                | format=E          | unit=None
+ 77 | F410M_MAGERR_EMP               | format=E          | unit=None
+ 78 | F410M_FLUX_APER                | format=12E        | unit=None
+ 79 | F410M_FLUXERR_APER_SE          | format=12E        | unit=None
+ 80 | F410M_FLUXERR_APER_EMP         | format=12E        | unit=None
+ 81 | F410M_CLASS_STAR               | format=E          | unit=None
+ 82 | F410M_FLUX_RADIUS              | format=E          | unit=None
+ 83 | F444W_FLUX                     | format=E          | unit=None
+ 84 | F444W_FLUXERR_SE               | format=E          | unit=None
+ 85 | F444W_FLUXERR_EMP              | format=E          | unit=None
+ 86 | F444W_MAG                      | format=E          | unit=None
+ 87 | F444W_MAGERR_SE                | format=E          | unit=None
+ 88 | F444W_MAGERR_EMP               | format=E          | unit=None
+ 89 | F444W_FLUX_APER                | format=12E        | unit=None
+ 90 | F444W_FLUXERR_APER_SE          | format=12E        | unit=None
+ 91 | F444W_FLUXERR_APER_EMP         | format=12E        | unit=None
+ 92 | F444W_CLASS_STAR               | format=E          | unit=None
+ 93 | F444W_FLUX_RADIUS              | format=E          | unit=None
+ 94 | F105W_FLUX                     | format=E          | unit=None
+ 95 | F105W_FLUXERR_SE               | format=E          | unit=None
+ 96 | F105W_FLUXERR_EMP              | format=E          | unit=None
+ 97 | F105W_MAG                      | format=E          | unit=None
+ 98 | F105W_MAGERR_SE                | format=E          | unit=None
+ 99 | F105W_MAGERR_EMP               | format=E          | unit=None
+100 | F105W_FLUX_APER                | format=12E        | unit=None
+101 | F105W_FLUXERR_APER_SE          | format=12E        | unit=None
+102 | F105W_FLUXERR_APER_EMP         | format=12E        | unit=None
+103 | F105W_CLASS_STAR               | format=E          | unit=None
+104 | F105W_FLUX_RADIUS              | format=E          | unit=None
+105 | F125W_FLUX                     | format=E          | unit=None
+106 | F125W_FLUXERR_SE               | format=E          | unit=None
+107 | F125W_FLUXERR_EMP              | format=E          | unit=None
+108 | F125W_MAG                      | format=E          | unit=None
+109 | F125W_MAGERR_SE                | format=E          | unit=None
+110 | F125W_MAGERR_EMP               | format=E          | unit=None
+111 | F125W_FLUX_APER                | format=12E        | unit=None
+112 | F125W_FLUXERR_APER_SE          | format=12E        | unit=None
+113 | F125W_FLUXERR_APER_EMP         | format=12E        | unit=None
+114 | F125W_CLASS_STAR               | format=E          | unit=None
+115 | F125W_FLUX_RADIUS              | format=E          | unit=None
+116 | F140W_FLUX                     | format=E          | unit=None
+117 | F140W_FLUXERR_SE               | format=E          | unit=None
+118 | F140W_FLUXERR_EMP              | format=E          | unit=None
+119 | F140W_MAG                      | format=E          | unit=None
+120 | F140W_MAGERR_SE                | format=E          | unit=None
+121 | F140W_MAGERR_EMP               | format=E          | unit=None
+122 | F140W_FLUX_APER                | format=12E        | unit=None
+123 | F140W_FLUXERR_APER_SE          | format=12E        | unit=None
+124 | F140W_FLUXERR_APER_EMP         | format=12E        | unit=None
+125 | F140W_CLASS_STAR               | format=E          | unit=None
+126 | F140W_FLUX_RADIUS              | format=E          | unit=None
+127 | F160W_FLUX                     | format=E          | unit=None
+128 | F160W_FLUXERR_SE               | format=E          | unit=None
+129 | F160W_FLUXERR_EMP              | format=E          | unit=None
+130 | F160W_MAG                      | format=E          | unit=None
+131 | F160W_MAGERR_SE                | format=E          | unit=None
+132 | F160W_MAGERR_EMP               | format=E          | unit=None
+133 | F160W_FLUX_APER                | format=12E        | unit=None
+134 | F160W_FLUXERR_APER_SE          | format=12E        | unit=None
+135 | F160W_FLUXERR_APER_EMP         | format=12E        | unit=None
+136 | F160W_CLASS_STAR               | format=E          | unit=None
+137 | F160W_FLUX_RADIUS              | format=E          | unit=None
+138 | F606W_FLUX                     | format=E          | unit=None
+139 | F606W_FLUXERR_SE               | format=E          | unit=None
+140 | F606W_FLUXERR_EMP              | format=E          | unit=None
+141 | F606W_MAG                      | format=E          | unit=None
+142 | F606W_MAGERR_SE                | format=E          | unit=None
+143 | F606W_MAGERR_EMP               | format=E          | unit=None
+144 | F606W_FLUX_APER                | format=12E        | unit=None
+145 | F606W_FLUXERR_APER_SE          | format=12E        | unit=None
+146 | F606W_FLUXERR_APER_EMP         | format=12E        | unit=None
+147 | F606W_CLASS_STAR               | format=E          | unit=None
+148 | F606W_FLUX_RADIUS              | format=E          | unit=None
+149 | F814W_FLUX                     | format=E          | unit=None
+150 | F814W_FLUXERR_SE               | format=E          | unit=None
+151 | F814W_FLUXERR_EMP              | format=E          | unit=None
+152 | F814W_MAG                      | format=E          | unit=None
+153 | F814W_MAGERR_SE                | format=E          | unit=None
+154 | F814W_MAGERR_EMP               | format=E          | unit=None
+155 | F814W_FLUX_APER                | format=12E        | unit=None
+156 | F814W_FLUXERR_APER_SE          | format=12E        | unit=None
+157 | F814W_FLUXERR_APER_EMP         | format=12E        | unit=None
+158 | F814W_CLASS_STAR               | format=E          | unit=None
+159 | F814W_FLUX_RADIUS              | format=E          | unit=None
+160 | F435W_FLUX                     | format=E          | unit=None
+161 | F435W_FLUXERR_SE               | format=E          | unit=None
+162 | F435W_FLUXERR_EMP              | format=E          | unit=None
+163 | F435W_MAG                      | format=E          | unit=None
+164 | F435W_MAGERR_SE                | format=E          | unit=None
+165 | F435W_MAGERR_EMP               | format=E          | unit=None
+166 | F435W_FLUX_APER                | format=12E        | unit=None
+167 | F435W_FLUXERR_APER_SE          | format=12E        | unit=None
+168 | F435W_FLUXERR_APER_EMP         | format=12E        | unit=None
+169 | F435W_CLASS_STAR               | format=E          | unit=None
+170 | F435W_FLUX_RADIUS              | format=E          | unit=None
+171 | LP_Z_MED                       | format=D          | unit=None
+172 | LP_Z_MED68_LOW                 | format=D          | unit=None
+173 | LP_Z_MED68_HIGH                | format=D          | unit=None
+174 | LP_Z_BEST                      | format=D          | unit=None
+175 | LP_MASS_MED                    | format=D          | unit=None
+176 | LP_MASS_MED68_LOW              | format=D          | unit=None
+177 | LP_MASS_MED68_HIGH             | format=D          | unit=None
+178 | LP_MASS_BEST                   | format=D          | unit=None
+179 | LP_SFR_MED                     | format=D          | unit=None
+180 | LP_SFR_MED68_LOW               | format=D          | unit=None
+181 | LP_SFR_MED68_HIGH              | format=D          | unit=None
+182 | LP_SFR_BEST                    | format=D          | unit=None
+183 | LP_EBV_BEST                    | format=D          | unit=None
+184 | LP_FIT_CHI                     | format=D          | unit=None
+185 | LP_NBANDS                      | format=D          | unit=None
+186 | DB_MASS                        | format=D          | unit=None
+187 | DB_MASS_LOW                    | format=D          | unit=None
+188 | DB_MASS_HIGH                   | format=D          | unit=None
+189 | DB_SFR                         | format=D          | unit=None
+190 | DB_SFR_LOW                     | format=D          | unit=None
+191 | DB_SFR_HIGH                    | format=D          | unit=None
+192 | DB_AV                          | format=D          | unit=None
+193 | DB_AV_LOW                      | format=D          | unit=None
+194 | DB_AV_HIGH                     | format=D          | unit=None
+195 | CI_MASS                        | format=D          | unit=None
+196 | CI_MASS_ERR                    | format=D          | unit=None
+197 | CI_SFR                         | format=D          | unit=None
+198 | CI_SFR_ERR                     | format=D          | unit=None
+199 | CI_EBV                         | format=D          | unit=None
+200 | CI_EBV_ERR                     | format=D          | unit=None
+
+
+POTENTIALLY RELEVANT COLUMNS
+----------------------------------------------------------------------------------------------------
+RA
+DEC
+KRON_RADIUS
+F115W_FLUX
+F115W_FLUXERR_SE
+F115W_FLUXERR_EMP
+F115W_MAG
+F115W_MAGERR_SE
+F115W_MAGERR_EMP
+F115W_FLUX_APER
+F115W_FLUXERR_APER_SE
+F115W_FLUXERR_APER_EMP
+F115W_CLASS_STAR
+F115W_FLUX_RADIUS
+F150W_FLUX
+F150W_FLUXERR_SE
+F150W_FLUXERR_EMP
+F150W_MAG
+F150W_MAGERR_SE
+F150W_MAGERR_EMP
+F150W_FLUX_APER
+F150W_FLUXERR_APER_SE
+F150W_FLUXERR_APER_EMP
+F150W_CLASS_STAR
+F150W_FLUX_RADIUS
+F200W_FLUX
+F200W_FLUXERR_SE
+F200W_FLUXERR_EMP
+F200W_MAG
+F200W_MAGERR_SE
+F200W_MAGERR_EMP
+F200W_FLUX_APER
+F200W_FLUXERR_APER_SE
+F200W_FLUXERR_APER_EMP
+F200W_CLASS_STAR
+F200W_FLUX_RADIUS
+F277W_FLUX
+F277W_FLUXERR_SE
+F277W_FLUXERR_EMP
+F277W_MAG
+F277W_MAGERR_SE
+F277W_MAGERR_EMP
+F277W_FLUX_APER
+F277W_FLUXERR_APER_SE
+F277W_FLUXERR_APER_EMP
+F277W_CLASS_STAR
+F277W_FLUX_RADIUS
+F356W_FLUX
+F356W_FLUXERR_SE
+F356W_FLUXERR_EMP
+F356W_MAG
+F356W_MAGERR_SE
+F356W_MAGERR_EMP
+F356W_FLUX_APER
+F356W_FLUXERR_APER_SE
+F356W_FLUXERR_APER_EMP
+F356W_CLASS_STAR
+F356W_FLUX_RADIUS
+F410M_FLUX
+F410M_FLUXERR_SE
+F410M_FLUXERR_EMP
+F410M_MAG
+F410M_MAGERR_SE
+F410M_MAGERR_EMP
+F410M_FLUX_APER
+F410M_FLUXERR_APER_SE
+F410M_FLUXERR_APER_EMP
+F410M_CLASS_STAR
+F410M_FLUX_RADIUS
+F444W_FLUX
+F444W_FLUXERR_SE
+F444W_FLUXERR_EMP
+F444W_MAG
+F444W_MAGERR_SE
+F444W_MAGERR_EMP
+F444W_FLUX_APER
+F444W_FLUXERR_APER_SE
+F444W_FLUXERR_APER_EMP
+F444W_CLASS_STAR
+F444W_FLUX_RADIUS
+F105W_FLUX
+F105W_FLUXERR_SE
+F105W_FLUXERR_EMP
+F105W_FLUX_APER
+F105W_FLUXERR_APER_SE
+F105W_FLUXERR_APER_EMP
+F105W_FLUX_RADIUS
+F125W_FLUX
+F125W_FLUXERR_SE
+F125W_FLUXERR_EMP
+F125W_FLUX_APER
+F125W_FLUXERR_APER_SE
+F125W_FLUXERR_APER_EMP
+F125W_FLUX_RADIUS
+F140W_FLUX
+F140W_FLUXERR_SE
+F140W_FLUXERR_EMP
+F140W_FLUX_APER
+F140W_FLUXERR_APER_SE
+F140W_FLUXERR_APER_EMP
+F140W_FLUX_RADIUS
+F160W_FLUX
+F160W_FLUXERR_SE
+F160W_FLUXERR_EMP
+F160W_FLUX_APER
+F160W_FLUXERR_APER_SE
+F160W_FLUXERR_APER_EMP
+F160W_FLUX_RADIUS
+F606W_FLUX
+F606W_FLUXERR_SE
+F606W_FLUXERR_EMP
+F606W_MAG
+F606W_MAGERR_SE
+F606W_MAGERR_EMP
+F606W_FLUX_APER
+F606W_FLUXERR_APER_SE
+F606W_FLUXERR_APER_EMP
+F606W_CLASS_STAR
+F606W_FLUX_RADIUS
+F814W_FLUX
+F814W_FLUXERR_SE
+F814W_FLUXERR_EMP
+F814W_MAG
+F814W_MAGERR_SE
+F814W_MAGERR_EMP
+F814W_FLUX_APER
+F814W_FLUXERR_APER_SE
+F814W_FLUXERR_APER_EMP
+F814W_CLASS_STAR
+F814W_FLUX_RADIUS
+F435W_FLUX
+F435W_FLUXERR_SE
+F435W_FLUXERR_EMP
+F435W_MAG
+F435W_MAGERR_SE
+F435W_MAGERR_EMP
+F435W_FLUX_APER
+F435W_FLUXERR_APER_SE
+F435W_FLUXERR_APER_EMP
+F435W_CLASS_STAR
+F435W_FLUX_RADIUS
+LP_Z_MED
+LP_Z_MED68_LOW
+LP_Z_MED68_HIGH
+LP_Z_BEST
+
+
+NUMERICAL COLUMN SUMMARY
+----------------------------------------------------------------------------------------------------
+NUMBER                         N=   87345 finite=   87345 min=           1 median=       46939 mean=       48313 max=       99474
+X_IMAGE                        N=   87345 finite=   87345 min=      896.14 median=       22228 mean=       22306 max=       44434
+Y_IMAGE                        N=   87345 finite=   87345 min=      388.58 median=      7819.4 mean=      7974.5 max=       14996
+RA                             N=   87345 finite=   87345 min=      214.69 median=      214.91 mean=      214.92 max=      215.18
+DEC                            N=   87345 finite=   87345 min=       52.72 median=      52.874 mean=      52.872 max=      53.021
+CXX_IMAGE                      N=   87345 finite=   87345 min=     1.7e-05 median=     0.26052 mean=      0.4352 max=      16.717
+CXY_IMAGE                      N=   87345 finite=   87345 min=     -10.017 median=    0.000575 mean=   0.0045475 max=      8.9351
+CYY_IMAGE                      N=   87345 finite=   87345 min=       5e-06 median=     0.25662 mean=     0.42462 max=      9.8779
+THETA_IMAGE                    N=   87345 finite=   87345 min=         -90 median=       -0.55 mean=    -0.64169 max=          90
+ELLIPTICITY                    N=   87345 finite=   87345 min=           0 median=       0.245 mean=     0.26672 max=       0.986
+KRON_RADIUS                    N=   87345 finite=   87345 min=         1.6 median=        2.54 mean=      2.5717 max=       5.905
+A_IMAGE                        N=   87345 finite=   87345 min=       0.627 median=       2.321 mean=      3.6442 max=      889.73
+B_IMAGE                        N=   87345 finite=   87345 min=       0.234 median=       1.724 mean=      2.3536 max=      228.72
+ISO_AREA                       N=   87345 finite=   87345 min=           0 median=           0 mean=      44.373 max=       37477
+STAR_FLAG                      N=   87345 finite=   87345 min=           0 median=           0 mean=    0.026264 max=           1
+BAD_REGION_FLAG                N=   87345 finite=   87345 min=           0 median=           0 mean=    0.051222 max=           1
+APCORR_TOTAL                   N=   87345 finite=   87345 min= -2.2292e+05 median=      1.9177 mean=      21.212 max=  6.0231e+05
+F115W_FLUX                     N=   87345 finite=   81770 min=  1.3327e-05 median=      24.247 mean=      5834.4 max=  9.6125e+07
+F115W_FLUXERR_SE               N=   87345 finite=   81770 min= -1.6798e+05 median=      5.7032 mean=      231.84 max=  3.5674e+06
+F115W_FLUXERR_EMP              N=   87345 finite=   80244 min= -1.7026e+05 median=      4.6048 mean=      1226.8 max=  2.6935e+07
+F115W_MAG                      N=   87345 finite=   81770 min=      11.443 median=      27.938 mean=      27.792 max=      43.588
+F115W_MAGERR_SE                N=   87345 finite=   81770 min=     -316.18 median=     0.24012 mean=     0.66788 max=      5452.4
+F115W_MAGERR_EMP               N=   87345 finite=   80244 min=     -301.06 median=     0.20041 mean=     0.61411 max=      4527.6
+F115W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.357 mean=     0.42251 max=           1
+F115W_FLUX_RADIUS              N=   87345 finite=   87345 min=      -14399 median=       1.734 mean=      1.8134 max=      850.29
+F150W_FLUX                     N=   87345 finite=   81354 min=  4.4515e-06 median=      28.319 mean=      9385.8 max=    1.49e+08
+F150W_FLUXERR_SE               N=   87345 finite=   81354 min=      -50163 median=       7.162 mean=       459.6 max=  5.6197e+06
+F150W_FLUXERR_EMP              N=   87345 finite=   79243 min=      -50849 median=      5.1093 mean=        2735 max=  5.7037e+07
+F150W_MAG                      N=   87345 finite=   81354 min=      10.967 median=       27.77 mean=      27.652 max=      44.779
+F150W_MAGERR_SE                N=   87345 finite=   81354 min=     -147.67 median=     0.25988 mean=     0.47761 max=      1815.5
+F150W_MAGERR_EMP               N=   87345 finite=   79243 min=     -107.19 median=     0.19002 mean=     0.40172 max=      1799.9
+F150W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.358 mean=     0.42463 max=           1
+F150W_FLUX_RADIUS              N=   87345 finite=   87345 min=     -7003.2 median=       1.734 mean=      2.0966 max=      808.33
+F200W_FLUX                     N=   87345 finite=   81965 min=  4.2715e-06 median=      30.755 mean=       12220 max=  1.9615e+08
+F200W_FLUXERR_SE               N=   87345 finite=   81965 min=      -65129 median=       5.952 mean=      404.72 max=  5.3699e+06
+F200W_FLUXERR_EMP              N=   87345 finite=   79856 min=      -44272 median=      3.9948 mean=      1282.3 max=  3.1576e+07
+F200W_MAG                      N=   87345 finite=   81965 min=      10.669 median=       27.68 mean=      27.536 max=      44.824
+F200W_MAGERR_SE                N=   87345 finite=   81965 min=     -138.88 median=     0.20061 mean=     0.32962 max=      806.19
+F200W_MAGERR_EMP               N=   87345 finite=   79856 min=      -64.55 median=     0.13778 mean=     0.23875 max=      687.85
+F200W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.375 mean=     0.44854 max=           1
+F200W_FLUX_RADIUS              N=   87345 finite=   87345 min=     -8768.6 median=       1.743 mean=      2.3058 max=      773.76
+F277W_FLUX                     N=   87345 finite=   82760 min=  1.7411e-05 median=      30.184 mean=       897.5 max=  8.5115e+06
+F277W_FLUXERR_SE               N=   87345 finite=   82760 min=     -527.82 median=      2.8046 mean=      40.396 max=  1.8391e+06
+F277W_FLUXERR_EMP              N=   87345 finite=   81584 min=      -701.5 median=       3.151 mean=      6123.4 max=  1.8671e+08
+F277W_MAG                      N=   87345 finite=   82760 min=      14.075 median=      27.701 mean=      27.447 max=      43.298
+F277W_MAGERR_SE                N=   87345 finite=   82760 min=     -283.42 median=    0.096773 mean=     0.15736 max=      470.49
+F277W_MAGERR_EMP               N=   87345 finite=   81584 min=     -387.93 median=     0.11174 mean=     0.35605 max=      4904.5
+F277W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.365 mean=     0.42585 max=           1
+F277W_FLUX_RADIUS              N=   87345 finite=   87345 min=      -16891 median=       1.728 mean=        1.93 max=      743.59
+F356W_FLUX                     N=   87345 finite=   83042 min=  3.6394e-05 median=      27.451 mean=      7450.6 max=  1.9463e+08
+F356W_FLUXERR_SE               N=   87345 finite=   83042 min=      -11776 median=      2.4155 mean=      124.12 max=  2.6466e+06
+F356W_FLUXERR_EMP              N=   87345 finite=   82318 min=      -17573 median=      2.9444 mean=      1971.5 max=  6.3078e+07
+F356W_MAG                      N=   87345 finite=   83042 min=      10.677 median=      27.804 mean=      27.511 max=      42.497
+F356W_MAGERR_SE                N=   87345 finite=   83042 min=     -2042.3 median=    0.092849 mean=      0.1362 max=      1681.5
+F356W_MAGERR_EMP               N=   87345 finite=   82318 min=     -2651.7 median=     0.11649 mean=     0.24297 max=      2696.4
+F356W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.353 mean=     0.40097 max=           1
+F356W_FLUX_RADIUS              N=   87345 finite=   87345 min=      -41262 median=       1.724 mean=      1.6201 max=      723.77
+F410M_FLUX                     N=   87345 finite=   79708 min=  2.2367e-05 median=       26.12 mean=      1153.9 max=  2.7712e+07
+F410M_FLUXERR_SE               N=   87345 finite=   79708 min=     -2679.5 median=      4.3374 mean=      79.406 max=  5.0808e+06
+F410M_FLUXERR_EMP              N=   87345 finite=   78592 min=     -3574.8 median=      5.7265 mean=      2205.5 max=  7.2747e+07
+F410M_MAG                      N=   87345 finite=   79708 min=      12.793 median=      27.858 mean=      27.656 max=      43.026
+F410M_MAGERR_SE                N=   87345 finite=   79708 min=     -700.56 median=      0.1709 mean=      0.6922 max=       18557
+F410M_MAGERR_EMP               N=   87345 finite=   78592 min=     -921.73 median=     0.23129 mean=       1.029 max=       26097
+F410M_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.347 mean=     0.33698 max=           1
+F410M_FLUX_RADIUS              N=   87345 finite=   87345 min=     -2834.6 median=       1.739 mean=      1.8186 max=       708.4
+F444W_FLUX                     N=   87345 finite=   83664 min=  8.1356e-05 median=      23.438 mean=      538.85 max=   5.446e+05
+F444W_FLUXERR_SE               N=   87345 finite=   83664 min=      -15165 median=      3.4497 mean=       5.683 max=       33625
+F444W_FLUXERR_EMP              N=   87345 finite=   82402 min= -7.9692e+08 median=      3.8137 mean=     -8037.1 max=  4.1529e+07
+F444W_MAG                      N=   87345 finite=   83664 min=       17.06 median=      27.975 mean=       27.69 max=      41.624
+F444W_MAGERR_SE                N=   87345 finite=   83664 min=     -6085.4 median=     0.14568 mean=     0.39894 max=       12281
+F444W_MAGERR_EMP               N=   87345 finite=   82402 min=  -1.827e+05 median=     0.16523 mean=     -1.6611 max=       14774
+F444W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.347 mean=      0.3224 max=           1
+F444W_FLUX_RADIUS              N=   87345 finite=   87345 min=     -7224.4 median=       1.776 mean=       1.856 max=      710.33
+F105W_FLUX                     N=   87345 finite=    9866 min= -6.7471e+07 median=      29.597 mean=      9598.6 max=  1.7078e+08
+F105W_FLUXERR_SE               N=   87345 finite=    9867 min= -1.6606e+17 median=      20.465 mean= -1.1082e+13 max=  3.2984e+16
+F105W_FLUXERR_EMP              N=   87345 finite=    9867 min= -1.7842e+17 median=      14.808 mean=  6.7853e+16 max=  6.5001e+20
+F105W_MAG                      N=   87345 finite=    9867 min=      11.704 median=      27.841 mean=      27.851 max=      42.193
+F105W_MAGERR_SE                N=   87345 finite=    9867 min= -7.0364e+16 median=     0.78105 mean=  2.8212e+14 max=  3.2771e+17
+F105W_MAGERR_EMP               N=   87345 finite=    9867 min= -6.2063e+16 median=     0.57969 mean=  2.7402e+14 max=  3.4733e+17
+F105W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.019 mean=    0.054775 max=           1
+F105W_FLUX_RADIUS              N=   87345 finite=   87345 min=       -5026 median=           0 mean=    0.045702 max=      383.78
+F125W_FLUX                     N=   87345 finite=   73199 min= -3.4538e+08 median=      28.994 mean=      2025.5 max=  2.1621e+08
+F125W_FLUXERR_SE               N=   87345 finite=   73200 min= -1.4395e+16 median=      18.152 mean= -1.5883e+11 max=  1.9766e+15
+F125W_FLUXERR_EMP              N=   87345 finite=   73200 min= -3.4458e+05 median=      10.288 mean=       15771 max=  3.9798e+08
+F125W_MAG                      N=   87345 finite=   73200 min=      11.321 median=      27.908 mean=      27.751 max=      43.481
+F125W_MAGERR_SE                N=   87345 finite=   73200 min= -1.0236e+16 median=     0.72352 mean=  1.8272e+13 max=  1.1643e+17
+F125W_MAGERR_EMP               N=   87345 finite=   73200 min=     -3986.2 median=     0.43323 mean=      20.906 max=  4.5979e+05
+F125W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.347 mean=     0.27149 max=           1
+F125W_FLUX_RADIUS              N=   87345 finite=   87345 min= -4.6407e+05 median=       2.048 mean=     -7.5659 max=      1035.4
+F140W_FLUX                     N=   87345 finite=   59345 min= -4.1508e+08 median=      40.108 mean=      916.04 max=  1.5282e+08
+F140W_FLUXERR_SE               N=   87345 finite=   59349 min=  -5.078e+15 median=      29.295 mean=  2.2594e+11 max=  2.0769e+15
+F140W_FLUXERR_EMP              N=   87345 finite=   59349 min= -1.0812e+11 median=      17.722 mean=  -1.571e+06 max=  6.9378e+09
+F140W_MAG                      N=   87345 finite=   59349 min=      11.407 median=      27.594 mean=      27.478 max=      41.648
+F140W_MAGERR_SE                N=   87345 finite=   59349 min= -8.4483e+15 median=     0.86489 mean=  5.0526e+13 max=   1.343e+17
+F140W_MAGERR_EMP               N=   87345 finite=   59349 min= -2.5016e+05 median=     0.54403 mean=      49.616 max=  1.3529e+05
+F140W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.275 mean=     0.20523 max=           1
+F140W_FLUX_RADIUS              N=   87345 finite=   87345 min= -8.2398e+05 median=       1.932 mean=     -13.178 max=      1003.8
+F160W_FLUX                     N=   87345 finite=   74896 min=  -3.426e+08 median=      30.535 mean=     -860.99 max=  6.8142e+08
+F160W_FLUXERR_SE               N=   87345 finite=   74899 min= -2.6173e+16 median=      14.906 mean= -1.3292e+11 max=  2.5813e+15
+F160W_FLUXERR_EMP              N=   87345 finite=   74899 min= -3.1091e+05 median=      9.2706 mean=      3695.7 max=  8.3855e+07
+F160W_MAG                      N=   87345 finite=   74899 min=       11.02 median=      27.909 mean=      27.726 max=       41.41
+F160W_MAGERR_SE                N=   87345 finite=   74899 min= -6.3309e+16 median=     0.60152 mean=  1.9544e+13 max=    1.93e+17
+F160W_MAGERR_EMP               N=   87345 finite=   74899 min=      -16601 median=     0.39468 mean=      10.584 max=  1.2967e+05
+F160W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.347 mean=      0.2871 max=           1
+F160W_FLUX_RADIUS              N=   87345 finite=   87345 min= -5.6283e+05 median=       2.027 mean=     -6.6467 max=      1035.6
+F606W_FLUX                     N=   87345 finite=   76271 min=  2.6128e-05 median=      14.321 mean=        2640 max=    2.41e+07
+F606W_FLUXERR_SE               N=   87345 finite=   76271 min=      -45657 median=      7.7211 mean=  5.5034e+11 max=  3.4447e+15
+F606W_FLUXERR_EMP              N=   87345 finite=   76271 min=      -50765 median=      6.5171 mean=      318.34 max=  4.2714e+06
+F606W_MAG                      N=   87345 finite=   76271 min=      12.945 median=       28.51 mean=      28.411 max=      42.857
+F606W_MAGERR_SE                N=   87345 finite=   76271 min=     -7629.8 median=     0.52862 mean=  4.5916e+07 max=  2.4409e+12
+F606W_MAGERR_EMP               N=   87345 finite=   76271 min=     -8493.8 median=     0.48399 mean=      2.0578 max=      9726.7
+F606W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.347 mean=      0.3189 max=           1
+F606W_FLUX_RADIUS              N=   87345 finite=   87345 min= -4.5892e+05 median=       1.811 mean=     -9.3357 max=      1024.1
+F814W_FLUX                     N=   87345 finite=   78464 min=  0.00039702 median=      18.633 mean=        5333 max=  5.5258e+07
+F814W_FLUXERR_SE               N=   87345 finite=   78464 min=      -36390 median=       7.727 mean=  4.8229e+11 max=   5.047e+15
+F814W_FLUXERR_EMP              N=   87345 finite=   78464 min=      -43449 median=      7.6793 mean=       649.5 max=  1.1748e+07
+F814W_MAG                      N=   87345 finite=   78464 min=      12.044 median=      28.224 mean=      28.076 max=      39.903
+F814W_MAGERR_SE                N=   87345 finite=   78464 min=       -2514 median=     0.41974 mean=  7.0119e+05 max=  4.8862e+09
+F814W_MAGERR_EMP               N=   87345 finite=   78464 min=     -2537.9 median=     0.44595 mean=      2.5434 max=       17810
+F814W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.347 mean=     0.33034 max=           1
+F814W_FLUX_RADIUS              N=   87345 finite=   87345 min= -1.9797e+05 median=       1.791 mean=     -1.9732 max=      1030.6
+F435W_FLUX                     N=   87345 finite=   59657 min=  4.0911e-05 median=      11.266 mean=      2417.9 max=  1.8062e+07
+F435W_FLUXERR_SE               N=   87345 finite=   59657 min= -4.7541e+16 median=      6.6325 mean=  1.0036e+12 max=   1.017e+17
+F435W_FLUXERR_EMP              N=   87345 finite=   59657 min= -8.1492e+05 median=      6.8782 mean=      126.33 max=  4.0805e+06
+F435W_MAG                      N=   87345 finite=   59657 min=      13.258 median=      28.771 mean=      28.767 max=       42.37
+F435W_MAGERR_SE                N=   87345 finite=   59657 min= -1.0803e+17 median=      0.5711 mean=  1.0363e+14 max=  3.3793e+17
+F435W_MAGERR_EMP               N=   87345 finite=   59657 min=      -23946 median=     0.62868 mean=      22.602 max=       75115
+F435W_CLASS_STAR               N=   87345 finite=   87345 min=           0 median=       0.347 mean=     0.24997 max=           1
+F435W_FLUX_RADIUS              N=   87345 finite=   87345 min= -1.9573e+05 median=        1.71 mean=     -5.8459 max=      937.46
+LP_Z_MED                       N=   87345 finite=   87345 min=       -99.9 median=      1.0388 mean=     -4.3853 max=      14.445
+LP_Z_MED68_LOW                 N=   87345 finite=   87345 min=       -99.9 median=      0.6221 mean=     -1.1419 max=      14.048
+LP_Z_MED68_HIGH                N=   87345 finite=   87345 min=       -99.9 median=      2.1216 mean=     0.57455 max=      14.823
+LP_Z_BEST                      N=   87345 finite=   87345 min=           0 median=      1.6058 mean=      2.0638 max=          15
+LP_MASS_MED                    N=   87345 finite=   87345 min=       -99.9 median=      7.2409 mean=      1.0965 max=      12.975
+LP_MASS_MED68_LOW              N=   87345 finite=   87345 min=       -99.9 median=      6.7367 mean=     0.67724 max=      12.958
+LP_MASS_MED68_HIGH             N=   87345 finite=   87345 min=       -99.9 median=      7.6804 mean=      1.4612 max=      12.992
+LP_MASS_BEST                   N=   87345 finite=   87345 min=        -999 median=      7.1842 mean=     -53.337 max=      14.734
+LP_SFR_MED                     N=   87345 finite=   87345 min=       -99.9 median=      -1.353 mean=      -7.109 max=         4.7
+LP_SFR_MED68_LOW               N=   87345 finite=   87345 min=       -99.9 median=     -2.2388 mean=     -7.9004 max=       4.632
+LP_SFR_MED68_HIGH              N=   87345 finite=   87345 min=       -99.9 median=    -0.62816 mean=     -6.4871 max=       4.768
+LP_SFR_BEST                    N=   87345 finite=   86177 min=        -999 median=     -1.2695 mean=     -62.736 max=       4.729
+LP_EBV_BEST                    N=   87345 finite=   87345 min=        -999 median=         0.1 mean=     -60.084 max=         1.2
+LP_FIT_CHI                     N=   87345 finite=   87345 min=           0 median=      10.217 mean=  2.1922e+07 max=       1e+09
+LP_NBANDS                      N=   87345 finite=   87345 min=           0 median=          13 mean=      12.144 max=          14
+DB_MASS                        N=   87345 finite=   80264 min=      4.0785 median=      7.6595 mean=      7.7857 max=      13.697
+DB_MASS_LOW                    N=   87345 finite=   79605 min=      -0.345 median=       0.572 mean=     0.50692 max=       3.054
+DB_MASS_HIGH                   N=   87345 finite=   80264 min=           0 median=       0.388 mean=     0.38426 max=       2.705
+DB_SFR                         N=   87345 finite=   80264 min=     -8.7904 median=     -1.5098 mean=     -1.5675 max=      66.606
+DB_SFR_LOW                     N=   87345 finite=   79655 min=     -0.7855 median=      0.8607 mean=     0.86009 max=      27.384
+DB_SFR_HIGH                    N=   87345 finite=   80264 min=           0 median=     0.55988 mean=     0.60773 max=      60.859
+DB_AV                          N=   87345 finite=   80264 min=     -8.7904 median=     -1.5098 mean=     -1.5675 max=      66.606
+DB_AV_LOW                      N=   87345 finite=   79655 min=     -0.7855 median=      0.8607 mean=     0.86009 max=      27.384
+DB_AV_HIGH                     N=   87345 finite=   80264 min=           0 median=     0.55988 mean=     0.60773 max=      60.859
+CI_MASS                        N=   87345 finite=   86056 min=         -99 median=      7.1087 mean=     -5.4166 max=      16.894
+CI_MASS_ERR                    N=   87345 finite=   86060 min=         -99 median=     0.24481 mean=     -11.608 max=      2306.8
+CI_SFR                         N=   87345 finite=   86056 min=         -99 median=     -1.3602 mean=     -12.937 max=      8.9961
+CI_SFR_ERR                     N=   87345 finite=   86060 min=         -99 median=     0.26565 mean=      319.42 max=  1.8976e+07
+CI_EBV                         N=   87345 finite=   87345 min=         -99 median=       0.075 mean=     -11.636 max=           2
+CI_EBV_ERR                     N=   87345 finite=   87345 min=         -99 median=       0.075 mean=     -11.636 max=           2
+
+
+FIRST 5 ROWS
+----------------------------------------------------------------------------------------------------
+NUMBER  X_IMAGE   Y_IMAGE      RA       DEC    CXX_IMAGE CXY_IMAGE CYY_IMAGE ... DB_AV_LOW DB_AV_HIGH      CI_MASS           CI_MASS_ERR            CI_SFR            CI_SFR_ERR     CI_EBV CI_EBV_ERR
+                                                                             ...                                                                                                                      
+------ --------- --------- --------- --------- --------- --------- --------- ... --------- ---------- ------------------ ------------------- ------------------- ------------------- ------ ----------
+     1 16884.225  445.4987  215.0458 52.865826  0.248407  0.044665  0.312828 ...       nan        nan  8.857842829485586 0.20477024078322953  0.3964562132828147 0.27231532344955434    0.0        0.0
+     2 16833.646  456.3304 215.04616 52.866207   0.53727 -0.015203  0.329575 ...       nan        nan   7.32208650467371 0.44529295976385364 -0.7857941121295727  0.3920358532508807  0.025      0.025
+   ...       ...       ...       ...       ...       ...       ...       ... ...       ...        ...                ...                 ...                 ...                 ...    ...        ...
+ 99472 16695.598 12032.163 214.92566 52.929638  0.457409 -0.035547  0.386603 ...       nan        nan  6.157949263382191  0.4159145194557079  -2.141418597161233  0.2760693390637805    0.1        0.1
+ 99473   5622.23 11415.194  215.0315 52.996555  0.388799  0.061115  0.529922 ...       nan        nan 6.3632107763873345 0.36456331594377367 -1.9695301210822629  0.2387909882959603    0.1        0.1
+ 99474 16368.217 11856.774 214.93044  52.93077  0.391471 -0.065177  0.241433 ...       nan        nan  6.571267557851776  0.2937045557253395 -1.6387101651284743 0.22346477227232645    0.1        0.1
+Length = 87345 rows
